@@ -1,0 +1,154 @@
+h1 {
+	color: #6b705c;
+	font-family: 'Rampart One', cursive;
+
+	font-size: 30px;
+	margin-left: 300px;
+	margin-top: 80px;
+	
+}
+h2 {
+	color: #cb997e;
+	font-family: 'Lobster', cursive;
+	margin-left: 30px;
+}
+.card {
+	box-shadow: 1px 1px 12px #6b705c;
+	border-width : 3px solid #023e8a ;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 50px;
+	padding: 40px;
+	font-family: 'Patrick Hand', cursive;
+}
+.info {
+
+}
+
+
+p {
+}
+#image {
+	float: left;
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: -120px;
+    filter: drop-shadow(30px 10px 4px #6b705c);
+}
+
+;
+
+#info {
+	margin-top: 125px;
+	bborder-radius: 50px;
+	box-shadow: 1px 1px 12px #6b705c;	
+	width: 200px;
+
+}
+
+#competences{
+	border-width : 3px solid #023e8a;
+	margin-top: 10px;
+	border-radius: 50px;
+	border-radius: 50px;
+	box-shadow: 1px 1px 12px #6b705c;
+	display: inline;
+
+
+}
+#exp {
+	color: #cb997e;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	margin-top: 30px;
+
+}
+#comp{
+	color: #cb997e;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	margin-top: 2px;
+	filter:  box-shadow: 1px 1px 12px #6b705c;;
+	padding: 20px;
+	width: 100px;}
+#compr{
+	margin-top: 125px;
+	align-items: center;
+	margin-top:30px;
+	border-radius: 50px;
+	box-shadow: 1px 1px 12px #6b705c;
+	display: inline;
+	padding: 20px;
+	font-family: 'Patrick Hand', cursive;
+
+}
+
+#exps { 
+	font-family: 'Patrick Hand', cursive;
+	font-size: 15px;
+}
+#pre {
+	font-family: 'Patrick Hand', cursive;;
+	font-weight: bold;
+
+}
+#form {
+	color: #cb997e;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	margin-top: 30px;
+   }
+#format {font-size: 15px;
+	font-family: 'Lobster', cursive;}
+.inf{padding: 12px;}
+.flex {display: flex;
+justify-content: space-centre 100px;}
+
+
+
+#rotary{
+	margin-top: 125px;
+	align-items: center;
+	margin-top:30px;
+	border-radius: 50px;
+	box-shadow: 1px 1px 12px #6b705c;
+	display: inline;
+	padding: 20px;
+	height: 600px;
+
+
+
+	   }
+#rot{color: #cb997e;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	margin-top: 2px;
+	filter:  box-shadow: 1px 1px 12px #555;;
+	padding: 20px;}
+#expli{font-family: 'Patrick Hand', cursive;}
+body { background-color: #ffe8d6;}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .flex {
+  	display: block;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
